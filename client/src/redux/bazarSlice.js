@@ -20,5 +20,5 @@ export const bazarSlice = createSlice({
   },
 });
 
-export const { addToCart, deleteItem, resetCart } = bazarSlice.actions;
+export const { addToCart, deleteItem, resetCart, increamentQuantity, decrementQuantity } = bazarSlice.actions;
 export default bazarSlice.reducer;
